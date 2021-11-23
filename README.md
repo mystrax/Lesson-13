@@ -43,4 +43,24 @@ Enter 5 values
             cout << userInput;
         }
     }
-    
+  
+Snacks
+
+    #include <iostream>
+    #include<string>
+    using namespace std;
+    int main()
+    {
+        string snacks[3][4] = {
+            {"Galaxy silk, ","Mars Bars, ","Snickers, ","Bounty"},
+            {"Flavoured Yoghurt, ","Oman Chips, ","Oreo, ","Lays, "},
+            {"Apple, ","Banana, ","Orange and ","Pear. "}
+        };
+        for (int i = 0;i < 3;i++)
+        {
+            for (int j = 0;j < 4;j++) {
+                cout << snacks[i][j] << "";
+            }
+            cout << endl;
+        }
+    }
