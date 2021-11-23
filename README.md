@@ -15,7 +15,7 @@ Advance array-Courses
       }
     }
 
- Advanced arrayCodelab  
+ Advanced array-Codelab  
                           
     #include <iostream>
     #include<string>
