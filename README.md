@@ -27,3 +27,20 @@ Advance array-Courses
         cout << letter;
       }
     }
+Enter 5 values
+
+    #include <iostream>
+    #include<string>
+    using namespace std;
+    int main()
+    {
+        int userInputs[5]{};
+        for (int i=0; i < 5; i++){
+            cout << "Enter 5 values" << endl;
+            cin >> userInputs[i];
+            }
+        for (auto userInput : userInputs) {
+            cout << userInput;
+        }
+    }
+    
