@@ -64,3 +64,23 @@ Snacks
             cout << endl;
         }
     }
+Art
+
+    #include <iostream>
+    #include<string>
+    using namespace std;
+    int main()
+    {
+        string art[5][1] =
+        { {"-----"},
+         {"-O-O-"},
+         {"-@@@-"},
+         {"-^^^-"},
+         {"-vvv-"}
+        };
+        for (int i = 0;i < 5;i++) {
+            for (int j = 0;j < 1;j++)
+                cout << art[i][j] << endl;
+        }
+        cout << endl;
+    }
